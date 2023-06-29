@@ -11,9 +11,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void  Register(View view){
-       setContentView(R.layout.register_layout);
 
     }
+    public void  Register(View view){
+        setContentView(R.layout.register_layout);
+
+    }
+
 }
