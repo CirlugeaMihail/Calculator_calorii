@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025390506300",
+    "project_id": "calories-counter-ebafa",
+    "storage_bucket": "calories-counter-ebafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025390506300:android:824a247f3569a3f5106e39",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025390506300-j7thf0rj6rdacmv8caf6po41dfgvp1ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-fPgheaIv6DDj_LxmJemIZv_kE5J-VG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025390506300-j7thf0rj6rdacmv8caf6po41dfgvp1ti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
