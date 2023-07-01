@@ -9,30 +9,37 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="66dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="92dp"
-        android:background="#d3ff1d"
-        android:text="Login"
-        android:textColor="@android:color/black"
+        android:layout_width="140dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#17B890"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnRegister"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:visibility="visible" />
+
 
     <Button
         android:id="@+id/btnRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="92dp"
+        android:layout_width="140dp"
+        android:layout_height="65dp"
         android:onClick="Register"
         android:text="Register"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnLogin" />
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
 
     <EditText
         android:id="@+id/textUsername"
@@ -46,13 +53,12 @@
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="false"
         android:singleLine="true"
+        android:textColorHint="@color/black"
         android:visibility="visible"
-
         app:hintAnimationEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:hintTextColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.323"
@@ -68,7 +74,8 @@
         android:gravity="center"
         android:hint="Password"
         android:inputType="textPassword"
-        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+
         app:hintAnimationEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

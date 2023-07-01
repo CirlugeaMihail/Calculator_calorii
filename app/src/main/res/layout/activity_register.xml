@@ -11,14 +11,19 @@
     <EditText
         android:id="@+id/Register_Mail"
         android:layout_width="250dp"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_height="48dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="108dp"
         android:background="#ddffdd "
+        app:hintTextColor="@color/black"
         android:ems="10"
         android:gravity="center"
+        android:textColorHint="@color/black"
         android:hint="example@mail.com"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,9 +34,12 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="24dp"
         android:background="#ddffdd "
+        app:hintTextColor="@color/black"
         android:ems="10"
+        android:textColorHint="@color/black"
         android:gravity="center"
         android:hint="Password"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Register_Mail" />
@@ -43,7 +51,10 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="24dp"
         android:background="#ddffdd "
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
         android:ems="10"
+        android:textColor="@color/black"
         android:gravity="center"
         android:hint="Verify your password"
         android:inputType="textPassword"
@@ -51,44 +62,50 @@
         app:layout_constraintTop_toBottomOf="@+id/Register_password1" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/textInaltime"
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="24dp"
         android:background="#ddffdd "
+        android:textColorHint="@color/black"
         android:ems="10"
         android:gravity="center"
         android:hint="Inaltime"
+        android:textColor="@color/black"
+        app:hintTextColor="@color/black"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Register_password2" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/textGreutate"
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="24dp"
         android:background="#ddffdd "
+        android:textColorHint="@color/black"
         android:ems="10"
         android:gravity="center"
         android:hint="Greutate"
+        android:textColor="@color/black"
+        app:hintTextColor="@color/black"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/textInaltime" />
 
     <Button
         android:id="@+id/RegisterRegister"
         android:layout_width="176dp"
         android:layout_height="70dp"
         android:layout_marginTop="148dp"
-        android:background="#d3ff1d "
+        android:textColor="@color/white"
         android:text="Register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/textGreutate" />
 
     <Button
         android:id="@+id/btnBack"
@@ -99,6 +116,8 @@
         android:layout_marginEnd="299dp"
         android:background="@drawable/circlebutton"
         android:onClick="BackToLogin"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:text="BACK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
